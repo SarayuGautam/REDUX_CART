@@ -17,7 +17,7 @@ const Navbar = ({ amount }) => {
     </nav>
   );
 };
-const mapStatetoProps = (state) => {
+const mapStateToProps = (state) => {
   return { amount: state.amount };
 };
-export default connect(mapStatetoProps)(Navbar);
+export default connect(mapStateToProps)(Navbar);
